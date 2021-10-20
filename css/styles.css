@@ -1,0 +1,16 @@
+h1 {
+  text-align: center;
+}
+
+button {
+  width:100%;
+  font-size:200%;
+}
+
+.row {
+  height: 100px;
+}
+
+h2 {
+  display: none;
+}

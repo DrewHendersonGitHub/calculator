@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>its calculator:</h1>
+  <div class="container">
+    <form id="mainForm"></form>
+      <div>
+        <div class="row">
+          <div class="col-3">
+            <button type="button" id="seven" class="w-50 p-4" value="7">7</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="eight" class="w-50 p-4" value="8">8</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="nine" class="w-50 p-4" value="9">9</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="divide" class="w-50 p-4">/</button>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-3">
+            <button type="button" id="four" class="w-50 p-4" value="4">4</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="five" class="w-50 p-4" value="5">5</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="six" class="w-50 p-4" value="6">6</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="multiply" class="w-50 p-4">*</button>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-3">
+            <button type="button" id="one" class="w-50 p-4" value="1">1</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="two" class="w-50 p-4" value="2">2</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="three" class="w-50 p-4" value="3">3</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="subtract" class="w-50 p-4">-</button>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-3">
+            <button type="button" id="zero" class="w-50 p-4" value="0">0</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="period" class="w-50 p-4">.</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="equals" class="w-50 p-4">=</button>
+          </div>
+          <div class="col-3">
+            <button type="button" id="add" class="w-50 p-4">+</button>
+          </div>
+        </div>
+      </div>
+    </form>
+    
+    <div id="result">
+      <h2>answer is: <span class="answer"></span></h2>      
+    </div>
+    
+  </div>
+</body>
+</html>
